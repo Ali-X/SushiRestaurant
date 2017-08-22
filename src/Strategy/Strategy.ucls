@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="Strategy.ICanDistribute" project="SushiRestaurant" 
+    file="/SushiRestaurant/src/Strategy/ICanDistribute.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="115" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="Strategy.ICanGiveBill" project="SushiRestaurant" 
+    file="/SushiRestaurant/src/Strategy/ICanGiveBill.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="252" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="Strategy.ICanTakeMoney" project="SushiRestaurant" 
+    file="/SushiRestaurant/src/Strategy/ICanTakeMoney.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="393" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Strategy.ICanClean" project="SushiRestaurant" 
+    file="/SushiRestaurant/src/Strategy/ICanClean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="535" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Strategy.ICanCook" project="SushiRestaurant" 
+    file="/SushiRestaurant/src/Strategy/ICanCook.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="665" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="Strategy.WhatICan" project="SushiRestaurant" 
+    file="/SushiRestaurant/src/Strategy/WhatICan.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="464" y="319"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="Strategy.ICanWash" project="SushiRestaurant" 
+    file="/SushiRestaurant/src/Strategy/ICanWash.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="795" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="9">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="11">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
